@@ -4,4 +4,5 @@ export default interface IConfig {
     discordClientId: string;
     guildId: string;
     adminChannelId: string;
+    whitelistRoleId: string;
 }

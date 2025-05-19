@@ -57,7 +57,8 @@ Check whether the server is currently accepting new whitelist requests.
     "mongo_uri": "YOUR_MONGODB_URI",
     "guildId": "YOUR_GUILDID",
     "adminChannelId": "YOUR_ADMINCHANNELID",
-    "discordClientId": "YOUR_BOTID"
+    "discordClientId": "YOUR_BOTID",
+    "whitelistRoleId": "WHITELIST_ROLEID"
    }
    ```
 4. Start the bot

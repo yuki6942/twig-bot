@@ -1,11 +1,11 @@
 import { model, Schema } from "mongoose";
 
-interface WhitelistConfig { 
+interface IWhitelistConfig { 
     id: Number;
     whitelistStatus: boolean;
 }
 
-export default model<WhitelistConfig>("WhitelistConfig", new Schema<WhitelistConfig>({
+export default model<IWhitelistConfig>("WhitelistConfig", new Schema<IWhitelistConfig>({
     id: Number,
     whitelistStatus: Boolean,
 }, {
